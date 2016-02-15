@@ -1,0 +1,1139 @@
+/* General Styles */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.row {
+  margin: 0 !important;
+}
+.container {
+  padding: 0;
+  margin: 0;
+  width: 100% !important;
+}
+header {
+  display: none;
+}
+.ccm-responsive-navigation {
+  background: #FFFFFF;
+}
+hr {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+main {
+  padding-bottom: 0px !important;
+}
+
+/* Sidebar */
+#fixed-sidebar {
+  position: fixed;
+  z-index: 20;
+  background: white;
+  height: 100%;
+}
+#fixed-sidebar img{
+  width: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+/* Sidebar Nav Button Style Overrides */
+#fixed-sidebar .nav {
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 40px;
+}
+#fixed-sidebar .nav>li {
+  height: 30px;
+}
+#fixed-sidebar .nav>li>a {
+  color: #7F7F7F !important;
+  font-size: 1.3em;
+  font-family: "Museo500";
+}
+#fixed-sidebar .nav>li>a:hover, .nav>li>a:focus {
+  color: #00A9BA !important;
+  background-color: #FFFFFF;
+}
+#fixed-sidebar .social-title {
+  color: #cacaca;
+  font-family: "Museo500";
+}
+
+/* Content Button Overrides */
+.content-link-block {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.content-link {
+  text-transform: uppercase;
+  display: inline;
+  font-size: 1.2em;
+  font-family: "Museo500";
+  background: url("../images/arrow_blue.png") no-repeat right center; 
+  background-size: 25px;
+  padding: 5px 30px 5px 0;
+}
+.content-link:hover {
+  background: url("../images/arrow_red.png") no-repeat right center;  
+  background-size: 25px;
+}
+/* Main Banner */
+.hp-banner-link-block {
+  text-align: center;
+}
+.hp-banner-link {
+  padding: 5px;
+  text-transform: uppercase;
+  display: inline;
+  font-size: 1.5em;
+  color: white !important;
+  text-align: center;
+  font-family: "Museo500";
+  background: url("../images/arrow_white_forward.png") no-repeat right center; 
+  background-size: 25px; 
+  padding: 5px 30px 5px 0;
+}
+.hp-banner-link:hover {
+  color: #cdde63 !important;
+  background: url("../images/arrow_green.png") no-repeat right center; 
+  background-size: 25px; 
+}
+/* Main Content */
+.col-content {
+  z-index: 10;
+  left: 16.7%;
+  width: 83.2% !important;
+  padding:0 !important;
+  color: #4C4C4C;
+  font-family: "Open Sans";
+}
+.top-banner {
+  margin-bottom: 60px;
+  background-size: 100% 130%;
+}
+.top-banner img{
+    width: 200px;
+    padding-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-content .main-top-banner h1{
+  font-family: "Museo500";
+  color: white;
+}
+.col-content .main-top-banner h2{
+    font-family: "Museo500";
+    color: white;
+}
+.col-content .top-banner h1 {
+    font-size: 4.0em;
+    text-align: center;
+    padding-top: 50px;
+    font-family: "Museo500";
+    color: white;
+}
+.col-content .top-banner h2 {
+    font-size: 3.0em;
+    text-align: center;
+    font-family: "Museo500";
+    color: white;
+}
+.tag-box {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 50%;
+}
+.tag-box h3 {
+
+}
+.main-top-banner {
+  background-size: 100%;
+}
+.col-content .ccm-custom-style-container{
+ /*height: 378px;*/
+ /*margin-top: -21px;*/
+}
+.col-content .ccm-custom-style-container img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.col-content .main-body h1 {
+    font-family: "Museo300";
+    color: #00A9BA;
+    font-size: 3em;
+}
+.col-content .main-body h2 {
+    font-size: 2.2em;
+    font-family: "Museo500";
+}
+.col-content .main-body h3 {
+    font-size: 1.8em;
+    text-align: left;
+    color: #00A9BA;
+    font-family: "Museo300";
+}
+.col-content .main-body h4 {
+    font-size: 1.2em;
+    font-family: "Museo300";
+    color: #00A9BA;
+}
+.col-content .hp-text-block h4 {
+    font-size: 3em;
+    font-family: "Museo300";
+    color: #1AA9BA;
+}
+.col-content h5 {
+    font-size: 1.4em;
+    padding-top: 50px;
+    font-family: "Museo300";
+}
+.ccm-imageblock {
+  width: 100% !important;
+}
+.main-body {
+  padding-bottom: 60px;
+}
+/* Mainbody Main Page Style*/
+.hp-content-pic-right {
+    overflow: hidden;
+}
+.hp-content-pic-right img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100% !important;
+}
+
+.hp-content-pic-left {
+    overflow: hidden;
+}
+.hp-content-pic-left img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100% !important;
+}
+.col-content hr{
+  margin-top: 30px !important;
+  margin-bottom: 40px !important; 
+}
+/* Mainbody About Page*/
+.about-right-box {
+  padding-bottom: 60px;
+}
+.about-right-box .about-profile-pic img{
+  padding-top: 40px;
+}
+/* Mainbody Approach Page*/
+#approach-quote {
+  font-family: "Museo500";
+  color: #A1A1A1;
+  font-size: 34px;
+}
+#quote-speaker {
+  font-family: "Museo500";
+  color: #1aa9b9;
+  font-size: 20px;
+}
+/* Mainbody Portfolio Page*/
+div.ccm-page div.ccm-block-page-list-thumbnail-grid-wrapper div.ccm-block-page-list-title {
+  font-family: "Open Sans" !important;
+  font-style: normal;
+}
+/* Portfolio Portfolio Detail Page*/
+div.ccm-page h1.page-title {
+  text-transform: none !important;
+}
+div.ccm-page div.ccm-block-page-list-thumbnail-grid-wrapper div.ccm-block-page-list-title {
+  margin-top: 0 !important;
+  color: #7F7F7F !important;
+}
+div.ccm-page div.ccm-block-page-list-thumbnail-grid-wrapper div.ccm-block-page-list-title:hover{
+  color: #D1145B !important;
+}
+.thumb-grid-link a{
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  display: inline;
+  font-size: 1em;
+  font-family: "Museo500";
+  background: url("../images/arrow_grey.png") no-repeat right center; 
+  background-size: 25px;
+  padding: 5px 30px 5px 0;
+}
+.thumb-grid-link a:hover {
+  color: #D1145B !important;
+  background: url("../images/arrow_red.png") no-repeat right center;  
+  background-size: 25px;
+}
+.portfolio-back-link {
+  /*text-transform: uppercase;*/
+  display: inline;
+  font-size: 2em;
+  color: white !important;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Museo500";
+  background: url("../images/arrow_white.png") no-repeat left center; 
+  background-size: 25px; 
+  padding: 5px 0px 5px 35px;
+  margin: auto 0;
+}
+.portfolio-back-link:hover {
+  color: #cdde63 !important;
+  background: none; 
+  background: url("../images/arrow_green_back.png") no-repeat left center;
+  background-size: 25px; 
+  margin: auto 0;
+}
+.portfolio-links {
+  cursor: pointer;
+  text-align: center;
+  font-family: "Museo500";
+}
+.pd-body h1 {
+  padding-left: 15px;
+  font-family: "Museo500" !important;
+  color: #1AA9BA !important;
+}
+
+.portfolio-detail-banner {
+  background: url("../images/header_portfolio_small.jpg");
+  height: 100px;
+}
+div.ccm-page .ccm-image-slider-container {
+  background: none !important;
+  border: none !important;
+}
+.rslides {
+  float: left;
+}
+.rslides_tabs {
+  float: left;
+}
+.pd-title h1.page-title {
+  text-transform: capitalize !important;
+}
+#gallery-slider li {
+  border: 0;
+}
+#gallery-slider li a{
+  border-radius: 0;
+  width: 100%;
+  height: 100%;
+}
+.thumbnail {
+  background: none;
+  border: none;
+}
+.ccm-block-page-attribute-display-title {
+  text-transform: uppercase;
+  color: #1AA9BA;
+  padding-right: 5px;
+}
+.pd-attr {
+  display:block;
+}
+/* Mainbody Contacts Page*/
+.contact-top-content {
+  padding-left: 36px;
+  padding-right: 36px;
+}
+.contact-form {
+  padding-left: 20px;
+}
+.contact-submit .btn-primary {
+  background-color: #1aa9b9;
+  border-radius: 5px !important;
+  padding: 5px 30px 5px 30px !important;
+  font-size: 1.2em;
+}
+/* Social Links Override */
+.side-social-box {
+  text-align: center;  
+}
+.side-social-box ul{
+  width: 100%;
+  margin-left: 0px;
+}
+.side-social-box li {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.side-social-box i { 
+    width: 38px;
+}
+.side-social-box i.fa-external-link {
+  content: url("../images/Social_email.gif");
+}
+.side-social-box i.fa-pinterest {
+  content: url("../images/Social_pintrest.gif");
+}
+.side-social-box i.fa-linkedin-square {
+  content: url("../images/Social_linkedin.gif"); 
+}
+.side-social-box i.fa-twitter {
+  content: url("../images/Social_twitter.gif");
+} 
+.side-social-box p {
+  color: #CBCBCB;
+  font-family: "Museo500";
+}
+/* Footer Styles */
+#footer-theme {
+  width: 100%;
+  background: #1AA9BA;
+}
+#footer-theme .container{
+ margin-left: 17%;
+ width: 70%;  
+ font-family: "Open Sans";
+}
+#footer-theme section {
+  padding-top: 10px !important;
+  padding-bottom: 0px !important;
+  font-family: "Open Sans";
+}
+
+/* Footer Nav Button Style Overrides */
+#footer-theme .nav {
+
+}
+
+#footer-theme .nav li {
+  display:inline !important;
+  float: left;
+  text-transform: uppercase;
+
+}
+#footer-theme .nav>li>a:hover, .nav>li>a:focus {
+  background-color: #1AA9BA;
+}
+#footer-theme .col-sm-8{
+  width: 70% !important;
+  float: left;
+}
+#footer-theme.col-sm-4{
+  width: 30% !important;
+  float: left;
+}
+footer#footer-theme .footer-copyright {
+  color: white;
+  padding-left: 13px;
+}
+div.ccm-page div.ccm-block-page-list-thumbnail-grid-wrapper div.ccm-block-page-list-page-entry-grid-item {
+  width: 303px;
+}
+div.ccm-page .breadcrumb a.filter.active {
+  color: #1aa9b9 !important;
+}
+/* Dimension Specific */
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  /* Fixed Side Bar */
+  #fixed-sidebar .nav>li>a {
+    padding: 0px 15px;
+  }
+  /* Main Page Top Banner */
+  .top-banner h1{
+      margin-top: -1px;
+  }
+  /* Main Top Banner */
+  .col-content .main-top-banner {
+    padding-top: 75px;
+    padding-bottom: 100px;
+  }
+  .hp-content-pic-left {
+      width: 80% !important;
+      margin-left: 50px;
+      padding-top: 20px;
+  }
+  .hp-content-pic-right {
+      width: 80% !important;
+  }
+  .col-content .main-top-banner h1{
+      font-size: 5.0em;
+      margin-bottom: 0px;
+      font-family: "Museo500";
+      color: white;
+  }
+  .col-content .main-top-banner h2{
+      font-size: 3.0em;
+      padding-top: 0px;
+      margin-top: 0px;
+      padding-bottom: 50px;
+      font-family: "Museo500";
+      color: white;
+  }
+  .col-content .portfolio-text .hp-text-block {
+      padding-top: 30px;
+  }
+  .col-content .approach-text .hp-text-block {
+      padding-top: 30px;
+  }
+  .col-content .question-text .hp-text-block {
+      padding-top: 10px;
+  }
+  /* General Main Body style*/
+  .col-content .main-body {
+    margin: 0 50px 0 50px;
+  }
+  /* Approach page*/
+  .approach-help-text {
+    padding-top: 10px;
+    padding-right: 20px;
+
+  }
+  .approach-help-pic {
+    width:150px;
+    padding-top:10px;
+  }
+  .contact-help-pic {
+    width:130px;
+    padding-top:30px;    
+  }
+  /* portfolio page */
+  .pd-main-body {
+    min-height: 400px;
+  }
+  /* portfolio portfolio detail page */
+  .pd-body {
+    padding: 0 20px 0 20px;
+  }
+  .pd-body h1{
+    font-size: 2.5em !important;
+    font-weight: 500 !important;
+  }
+  .portfolio-slides {
+    width: 1100px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .portfolio-detail-logo {
+    padding-top: 20px;
+    padding-left: 65%;
+    padding-right: 20px;
+  }
+  .portfolio-detail-back {
+    padding-left: 25px;
+    padding-top: 25px;
+  }
+  .ccm-image-slider {
+    min-height: 650px;
+  }
+  .rslides {
+    width: 77% !important;
+    margin-left: -80px !important;
+    padding-bottom: 100px;
+  }
+  .rslides-here .thumbnail {
+    width: 100% !important;
+  }
+  #gallery-slider {
+    margin-left: 20px;
+    margin-right: -20px;
+    width: 20%;
+  }
+  div.ccm-page .ccm-image-slider-container {
+    border-bottom: none !important;
+  }
+  .rslides {
+  }
+  .ccm-image-slider-container {
+    background: #E5E5E5 !important;
+  }
+  #gallery-slider {
+    padding-left: 30px;
+  }
+  #gallery-slider li{
+    display: block;
+    width: 60px;
+  }
+
+  /* Footer */
+  #footer-theme .container{
+  } 
+  #footer-theme .footer-logo {
+    padding-top: 10px;
+    padding-left: 20%;
+    padding-right: 50px;
+  }
+  .about-right-box .about-profile-pic img{
+    padding-top: 40px;
+    width: 240px;
+  }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .content-link-block.portfolio {
+    width: 70%;
+  }
+  .content-link-block.approach {
+    width: 90%;
+  }
+  .content-link-block.questions {
+    width: 70%;
+  }
+  .main-top-banner {
+    padding-top: 40px !important;
+  }
+  .hp-content-pic-right.porfolio {
+    padding-top: 60px !important;
+    width: 100% !important;
+  }
+  .hp-content-pic-left {
+    width: 80% !important;
+    margin-left: 50px;
+    padding-top: 50px;
+  }
+  .hp-content-pic-right.questions {
+    padding-top: 60px !important;
+    width: 100% !important;
+  }
+  .about-right-box .about-profile-pic img{
+    padding-top: 40px;
+    width: 200px;
+  }
+  .col-content {
+    margin-top: 0;
+  }
+  .hp-banner-link-block {
+    padding-bottom: 30px;
+  }
+  h1 {
+    margin-top: 0;
+  }
+  .col-content .main-top-banner h1{
+    font-size: 5.0em;
+    margin-bottom: 0px;
+    font-weight: 500 !important;
+    color: white;
+  }
+  .col-content .main-top-banner h2{
+      font-size: 3.0em;
+      padding-top: 0px;
+      margin-top: 0px;
+      padding-bottom: 30px;
+      color: white;
+  }
+  .portfolio-detail-logo {
+    padding-top: 20px;
+    padding-left: 65%;
+    padding-right: 20px;
+  }
+  .portfolio-detail-back {
+    padding-left: 15px;
+    padding-top: 25px;
+    font-size: 16px;
+    width: 70%;
+    float: left;
+    display: block;
+  }
+  /* Social Links*/
+  .side-social-box i { 
+      width: 38px;
+  }
+  /* Footer */
+  #footer-theme .container{
+   margin-left: 17%;
+   padding-top: 20px;
+   width: 100%;  
+  } 
+  #footer-theme .footer-logo {
+    width: 100px;
+    padding-top: 10px;
+  }
+}
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-content {
+    left: 15%;
+    width: 86% !important;
+  }
+  .col-content .main-body {
+    margin: 0 30px 0 15px;
+  }
+  h1 {
+    margin-top: 0;
+  }
+  .hp-main-banner h1 {
+    font-size: 2.8em !important;
+  }
+  .hp-main-banner h2 {
+    font-size: 2.0em !important;
+  }
+  .col-md-2 {
+    width: 15%;
+  }
+  .ccm-custom-style-mainbanner {
+    padding-top: 20px !important;
+    padding-bottom: 60px;
+  }
+  #fixed-sidebar .nav>li>a {
+    color: #7F7F7F !important;
+    font-size: 1.0em;
+    font-family: "Museo500";
+    padding: 0 !important;
+  }
+  .col-content .hp-text-block h4 {
+    font-size: 2.5em;
+  }
+  .main-top-banner h1 {
+    font-size: 3.0em !important;
+  }
+  .main-top-banner h2 {
+    font-size: 2.0em !important;
+  }
+  .hp-banner-link-block {
+    padding: 10px 0 10px 0;
+  }
+  .hp-content-pic-right {
+    padding-top: 60px !important;
+  }
+    .hp-content-pic-left {
+    padding-top: 60px !important;
+  }
+  .hp-content-link-block.portfolio {
+    width: 80%;
+  }
+  .hp-content-link-block.approach {
+    width: 95%;
+  }
+  .hp-content-link-block.questions {
+    width: 50%;
+  }
+  .hp-content-pic-right.questions {
+    padding-top: 50px !important;
+  }
+  /* Social Links*/
+  .side-social-box i { 
+      width: 55px;
+  }
+  .portfolio-detail-logo {
+    padding-top: 20px !important;
+    padding-left: 50px;
+    padding-right: 20px;
+    width: 120px;
+    float: left;
+  }
+  .portfolio-detail-back {
+    padding-left: 15px;
+    padding-top: 25px;
+    font-size: 14px;
+    width: 80%;
+    float: left;
+    display: block;
+  }
+  .rslides {
+    width: 70% !important;
+    margin-left: -10px !important;
+  }
+  .rslides-here .thumbnail {
+    width: 100% !important;
+  }
+  #gallery-slider {
+    margin-left: 20px;
+    margin-right: -20px;
+    width: 13%;
+  }
+  /* Footer*/
+  #footer-theme .footer-logo {
+    width: 100px;
+    padding-top: 10px;
+  }
+  #footer-theme .col-sm-2 {
+    padding: 0 !important;
+  }
+  .about-right-box .about-profile-pic img{
+    padding-top: 40px;
+    width: 160px;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  /* Mobile header */
+  #mobile-header-bar-logo {
+    text-align: center;
+    height: 50px;
+    background-color: white;
+  }
+  #mobile-header-bar-logo .center-header-logo {
+    height: 50px;
+  }
+  #mobile-header-bar-logo #top-header-logo {
+    display: inline-block;
+    font-family: "Museo500";
+    font-size: 1.2em;
+    vertical-align: middle;
+    color:#00AABC;
+    padding-left: 4px;
+    letter-spacing: 2px;
+  }
+  #mobile-header-bar-logo {
+  }
+  .ccm-responsive-overlay {
+    top: 45px !important;
+    text-align: center;
+    padding-left: 0 !important;
+  }
+  /* Fixed Side Bar*/
+  #fixed-sidebar {
+    display: none;
+  }
+  /* Mainbody */
+  .col-content {
+    z-index: 10;
+    width: 100% !important;
+    padding:0 !important;
+    left: 0;
+  }
+  .approach-right-pic {
+    width: 400px;
+  }
+  .approach-help-pic {
+    width: 200px;
+  }
+  .contact-help-pic {
+    width: 200px;
+  }
+  h1 {
+    margin-top: 0;
+  }
+  .ccm-custom-style-container {
+    padding: 0 !important;
+  }
+  .col-content .main-body {
+    margin: 0 10px 0 10px;
+  }
+  .col-content .row {
+    padding: 0;
+  }
+  .main-top-banner {
+  }
+  .hp-text-block {
+    margin-top: 20px;
+  }
+  .content-link-block {
+    padding: 10px;
+  }
+  .hp-content-pic-right {
+    width: 70% !important;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hp-content-pic-left {
+    width: 70% !important;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .col-content .main-top-banner h1{
+    font-size: 3em;
+    margin: 0;
+    color: white;
+  }
+  .col-content .hp-text-block {
+     padding: 10px;
+  }
+  .col-content .main-top-banner h2{
+    font-size: 1.5em;
+    padding-bottom: 25px;
+    color: white;
+  }
+
+  /* Mainbody About Page*/
+  .about-right-box {
+    padding-bottom: 60px;
+  }
+  .about-right-box .about-profile-pic img{
+    padding-top: 40px;
+    width: 210px;
+  }
+  header {
+    display: initial;
+  }
+  .main-top-banner {
+    height: 100%;
+    padding-bottom: 60px;
+  }
+  .hp-main-banner h1 {
+    padding-top: 0 !important;
+  }
+  .hp-main-banner h2 {
+    padding-top: 10px;
+    font-size: 2em !important;
+  } 
+  .col-content .main-body h4 {
+      font-size: 2.2em !important;
+      text-align: center;
+      margin: auto;
+  }
+  .approach-right-pic {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .approach-help-pic {
+    margin-top: -20px 0 20px 0;
+    width: 180px;
+  }
+  .contact-help-pic {
+    width: 180px;
+  }
+  .portfolio-detail-logo {
+    padding-top: 20px !important;
+    padding-left: 400px;
+    padding-right: 20px;
+    width: 15%;
+    float: left;
+  }
+  .portfolio-detail-back {
+    padding-left: 15px;
+    padding-top: 25px;
+    font-size: 16px;
+    width: 70%;
+    float: left;
+    display: block;
+  }
+  .portfolio-approach-block {
+    float:left;
+    display: block;
+    width: 230px;
+  }
+  .contact-approach-block {
+    padding-left: 10px;
+    float:left;
+    display: block;
+    width: 230px;
+  }
+  .hp-text-block p {
+      font-size: 1.5em !important;
+  }
+  .about-right-box .about-profile-pic img{
+    padding-top: 40px;
+    width: 210px;
+  }
+  .rslides {
+    width: 77% !important;
+    margin-left: -10px !important;
+  }
+  .rslides-here .thumbnail {
+    width: 100% !important;
+  }
+  #gallery-slider {
+    margin-left: 20px;
+    margin-right: -20px;
+    width: 20%;
+  }
+  /* Social Links*/
+  .side-social-box i { 
+      width: 45px;
+  }
+  /* Footer */
+  #footer-theme .container{
+   margin-left: 0;
+   width: 100%;  
+  } 
+  #footer-theme .footer-logo {
+    width: 140px;
+    float: right;
+  }
+  .footer-copyright {
+    margin-left: 15px;
+  }
+  .hp-content-pic-right img {
+    margin: 0;
+  }
+  .content-link {
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  /* Mobile header */
+  #mobile-header-bar-logo {
+    text-align: center;
+    height: 50px;
+    background-color: white;
+  }
+  #mobile-header-bar-logo .center-header-logo {
+    height: 50px;
+  }
+  #mobile-header-bar-logo #top-header-logo {
+    display: inline-block;
+    font-family: "Museo500";
+    font-size: 1.2em;
+    vertical-align: middle;
+    color:#00AABC;
+    padding-left: 4px;
+    letter-spacing: 2px;
+  }
+  .header-social-bar {
+    margin-right: 20px;
+  }
+  .ccm-responsive-overlay {
+    top: 45px !important;
+    text-align: center;
+    padding-left: 0 !important;
+  }
+  /* Fixed Side Bar*/
+  #fixed-sidebar {
+    display: none;
+  }
+  header {
+    display: initial;
+  }
+  /* Main Banner */
+  .hp-banner-link-block {
+    margin:auto;
+  }
+  /* Main Content */
+  .col-content {
+    left: 0;
+    width: 100%;
+  }
+  h1 {
+    margin-top: 0;
+  }
+  /* Mainbody */
+  .main-top-banner {
+    padding-bottom: 40px;
+    background-size: 1000px 600px;
+    right: 0;
+    background-position: 80% 50%;
+  }
+  .col-content .main-top-banner h1{
+    padding: 80px 20px 0px 20px;
+    display: block;
+    font-size: 3em !important;
+    margin-bottom: 0px;
+    color: white;
+  }
+  .col-content .main-top-banner h2{
+    padding: 10px 20px 50px 20px;
+    font-size: 2em;
+    margin-bottom: 20px;
+    margin-top:5px;
+    padding-bottom: 5px;
+    color: white;
+  }
+  .col-content .main-body h4 {
+      padding-top: 50px;
+      font-size: 2.2em !important;
+      font-family: "Museo300";
+      color: #00A9BA;
+  }
+  .contact-top-content {
+    margin: 0 15px;
+  }
+  .contact-top-content h1 {
+    text-align: center;
+  }
+  .hp-content-pic-right {
+    width: 70% !important;
+    margin-top: 10px;
+  }
+  .about-right-box .about-profile-pic img{
+    padding-top: 40px;
+    width: 120px;
+  }
+  .approach-right-pic {
+    width: 350px;
+  }
+  .approach-help-pic {
+    margin-top: -20px 0 20px 0;
+    width: 140px;
+  }
+  .contact-help-pic {
+    width: 140px;
+  }
+  .portfolio-approach-block {
+    float:left;
+    display: block;
+    width: 175px;
+  }
+  .contact-approach-block {
+    padding-left: 10px;
+    float:left;
+    display: block;
+    width: 175px;
+  }
+  .top-banner {
+    margin-bottom: 60px;
+    background-size: 100% 130%;
+  }
+  .portfolio-detail-logo {
+    padding-top: 20px !important;
+    padding-left: 400px;
+    padding-right: 20px;
+    width: 25%;
+    float: left;
+  }
+  .portfolio-detail-back {
+    padding-left: 15px;
+    padding-top: 25px;
+    font-size: 14px;
+    width: 70%;
+    float: left;
+    display: block;
+  }
+  .pd-body {
+    padding: 0 10px 10px 10px;
+  }
+  .content-link-block .portfolio {
+
+  }
+  .ccm-image-slider-container {
+    margin-bottom: -10px !important;
+  }
+  .rslides {
+    width: 77% !important;
+    margin-left: -10px !important;
+  }
+  #gallery-slider {
+    margin-left: 20px;
+    margin-right: -20px;
+    width: 20%;
+  }
+  /* Footer */
+  #footer-theme {
+    height: 120px;
+  }
+  #footer-theme .container{
+   margin-left: 0;
+   width: 100%;  
+  }
+  #footer-theme .footer-logo {
+    display:none;
+  }
+  #footer-theme .col-sm-8{
+    width: 100% !important;
+    float: left;
+    font-size: 0.9em !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center;
+  }
+  #footer-theme .col-sm-8 .nav{
+    width: 100% !important;
+  }
+  #footer-theme .col-sm-4{
+    width: 30% !important;
+    float: left;
+  }
+  .footer-logo{
+    padding: 0 !important;
+  }
+  #footer-theme section {
+    height: 100%;
+  }
+  .content-link-block {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
