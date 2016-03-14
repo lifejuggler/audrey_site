@@ -8,7 +8,6 @@ $a = new Area('Main');
 $a->enableGridContainer();
 $a->display($c);
 ?>
-
 </main>
 
 <?php  $this->inc('elements/footer.php'); ?>
