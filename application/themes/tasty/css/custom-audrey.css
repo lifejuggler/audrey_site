@@ -24,42 +24,19 @@ hr {
 main {
   padding-bottom: 0px !important;
 }
+.uppercase {
+  text-transform: uppercase !important;    
+}
+.capitalize {
+  text-transform: capitalize !important;
+}
 
-/* Sidebar */
-#fixed-sidebar {
+/* Fixed Sidebar */
+.col-fixed-sidebar .fixed-sidebar {
   position: fixed;
   z-index: 20;
   background: white;
   height: 100%;
-}
-#fixed-sidebar img{
-  width: 140px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-/* Sidebar Nav Button Style Overrides */
-#fixed-sidebar .nav {
-  text-transform: uppercase;
-  text-align: center;
-  padding-bottom: 40px;
-}
-#fixed-sidebar .nav>li {
-  height: 30px;
-}
-#fixed-sidebar .nav>li>a {
-  color: #7F7F7F !important;
-  font-size: 1.3em;
-  font-family: "Museo500";
-}
-#fixed-sidebar .nav>li>a:hover, .nav>li>a:focus {
-  color: #00A9BA !important;
-  background-color: #FFFFFF;
-}
-#fixed-sidebar .social-title {
-  color: #cacaca;
-  font-family: "Museo500";
 }
 
 /* Content Button Overrides */

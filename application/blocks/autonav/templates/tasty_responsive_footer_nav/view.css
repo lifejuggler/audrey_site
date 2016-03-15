@@ -1,0 +1,22 @@
+.ccm-responsive-overlay  {
+    display: none;
+}
+div.ccm-page header nav ul a {
+  padding-right: 30px; 
+}
+.two-spaces {
+  margin-left: 10px;
+}
+ul.main-sub-menu {
+  margin-left: 0px;
+  top: 15px !important;
+}
+footer#footer-theme a {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.footer-nav {
+  display: inline; /* Shows each item side-by-side */
+  list-style-type: none; /* Gets rid of the bullet points */
+  padding-left: 15px;
+}
