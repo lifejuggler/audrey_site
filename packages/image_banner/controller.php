@@ -11,7 +11,7 @@ class Controller extends Package
 
 	protected $pkgHandle = 'image_banner';
 	protected $appVersionRequired = '5.7.1';
-	protected $pkgVersion = '1.0.1';
+	protected $pkgVersion = '0.0.1';
 	
 	
 	

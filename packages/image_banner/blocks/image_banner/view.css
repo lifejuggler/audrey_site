@@ -1,3 +1,26 @@
 .img-banner {
   width: 100%;
 }
+.caption-box {
+  position: absolute;
+  width: 100%;
+  min-height: 150px;
+  background-color: black;
+  opacity: 0.8;
+  font-size: 1.2em;
+  bottom: 0;
+  color: white;
+  padding: 10px 25px;
+}
+.caption-box .img-header {
+  font-size: 2em;
+  color: white;
+}
+.image-box {
+  position: relative;
+}
+@media (max-width: 480px) {
+  .caption-box {
+    display: none;
+  }
+}

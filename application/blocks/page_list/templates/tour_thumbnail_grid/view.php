@@ -62,12 +62,11 @@ $c = Page::getCurrentPage();
                 <?php if ($includeDescription): ?>
                     <div class="ccm-block-page-list-description">
                         <?php echo $description ?>
-                        <?php echo $buttonLinkText?>
                     </div>
                 <?php endif; ?>
                 <?php if ($useButtonForLink): ?>
                     <div class="ccm-block-page-list-page-entry-read-more">
-                        <a href="<?php echo $url?>" class="<?php echo $buttonClasses?>"><?php echo $buttonLinkText?></a>
+                        <a href="<?php echo $url?>" class="<?php echo $buttonClasses?> small-button"><?php echo $buttonLinkText?></a>
                     </div>
                 <?php endif; ?>
             </div>

@@ -8,32 +8,47 @@ $this->inc('elements/header.php'); ?>
     $a->display($c);
     ?>
     <div class="home-container">
-        <section class="even-row main-section">
-            <?php
-            $a = new Area('Tour Detail');
-            $a->enableGridContainer();
-            $a->setAreaGridMaximumColumns(12);
-            $a->display($c);
-            ?>
-        </section>
-        <section class="odd-row main-section">
-            <?php
-            $a = new Area('Why Tour');
-            $a->enableGridContainer();
-            $a->setAreaGridMaximumColumns(12);
-            $a->display($c);
-            ?>
-        </section>
-        <section class="even-row main-section">
-            <?php
-            $a = new Area('Review');
-            $a->enableGridContainer();
-            $a->setAreaGridMaximumColumns(12);
-            $a->display($c);
-            ?>
-        </section>
+        <div class="col-md-12">
+            <section class="even-row main-section">
+                <?php
+                $a = new Area('Tour Detail');
+                $a->enableGridContainer();
+                $a->setAreaGridMaximumColumns(12);
+                $a->display($c);
+                ?>
+            </section>
+        </div>
+        <div class="col-md-12">
+            <section class="odd-row main-section">
+                <?php
+                $a = new Area('Why Tour');
+                $a->enableGridContainer();
+                $a->setAreaGridMaximumColumns(12);
+                $a->display($c);
+                ?>
+            </section>
+        </div>
+        <div class="col-md-6">
+            <section class="even-row main-section">
+                <?php
+                $a = new Area('Review');
+                $a->enableGridContainer();
+                $a->setAreaGridMaximumColumns(12);
+                $a->display($c);
+                ?>
+            </section>
+        </div>
+        <div class="col-md-6">
+            <section class="even-row main-section">
+                <?php
+                $a = new Area('Press');
+                $a->enableGridContainer();
+                $a->setAreaGridMaximumColumns(12);
+                $a->display($c);
+                ?>
+            </section>
+        </div>
     </div>
-
 </main>
 
 <?php  $this->inc('elements/footer.php'); ?>

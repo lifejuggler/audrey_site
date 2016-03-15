@@ -1,6 +1,6 @@
 <?php defined('C5_EXECUTE') or die("Access Denied."); ?>
 
-<?php View::getInstance()->requireAsset('javascript', 'jquery');
+<?php
 
 $navItems = $controller->getNavItems();
 
@@ -114,7 +114,7 @@ foreach ($navItems as $ni) {
 
 //*** Step 2 of 2: Output menu HTML ***/
 
-echo '<nav class="ccm-responsive-navigation original"><ul>'; //opens the top-level menu
+echo '<nav class="original"><ul>'; //opens the top-level menu
 foreach ($navItems as $ni) {
     if ($ni->cObj->getAttribute('exclude_from_header') == 1) {
         echo '<li class="' . $ni->classes . '">'; //opens a nav item
@@ -122,14 +122,9 @@ foreach ($navItems as $ni) {
 
         echo '<a href="' . $ni->url . '" target="' . $ni->target . '" class="' . $ni->classes .'">' . $name . '</a>';      
 
-        if ($ni->hasSubmenu) {
-            echo '<ul class="main-sub-menu">'; //opens a dropdown sub-menu
-        } else {
-            echo '</li>'; //closes a nav item
-            echo str_repeat('</ul></li>', $ni->subDepth); //closes dropdown sub-menu(s) and their top-level nav item(s)
-        }
+        echo '</li>'; //closes a nav item
+        echo str_repeat('</ul></li>', $ni->subDepth); //closes dropdown sub-menu(s) and their top-level nav item(s)
     }
 }
 
-echo '</ul></nav>'; //closes the top-level menu
-echo '<div class="ccm-responsive-menu-launch"><i></i></div>'; // empty i tag for attaching :after or :before psuedos for things like FontAwesome icons.
+echo '</ul></nav>'; //closes the top-level menupsuedos for things like FontAwesome icons.

@@ -1,6 +1,7 @@
 <?php defined('C5_EXECUTE') or die("Access Denied.");
 
 $c = Page::getCurrentPage();
+print '<div class="image-box">';
 if (is_object($f)) {
     if ($maxWidth > 0 || $maxHeight > 0) {
         $im = Core::make('helper/image');
@@ -31,12 +32,13 @@ if (is_object($f)) {
     if ($linkURL):
         print '</a>';
     endif;
+    print '<div class="caption-box"><div class="img-header">' . $title . '</div><p>' . $caption . '</p></div>';
 } else if ($c->isEditMode()) { ?>
 
     <div class="ccm-edit-mode-disabled-item"><?php echo t('Empty Image Block.')?></div>
 
 <?php } ?>
-
+</div>
 <?php if(is_object($foS)) { ?>
 <script>
 $(function() {

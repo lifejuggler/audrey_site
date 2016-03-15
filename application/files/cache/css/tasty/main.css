@@ -104,7 +104,7 @@ div.ccm-page main {
 }
 div.ccm-page main a:not(.fa):not(.btn),
 div.ccm-page footer a:not(.fa):not(.btn) {
-  color: #3fa076;
+  color: #257134;
 }
 div.ccm-page main a:not(.fa):not(.btn):hover,
 div.ccm-page footer a:not(.fa):not(.btn):hover {
@@ -1083,7 +1083,7 @@ div.ccm-page div.ccm-block-page-list-thumbnail-grid-wrapper div.ccm-block-page-l
   }
 }
 div.ccm-page div.ccm-block-page-list-thumbnail-grid-wrapper div.ccm-block-page-list-page-entry-grid-thumbnail-hover {
-  background-color: rgba(63, 160, 118, 0.7);
+  background-color: rgba(37, 113, 52, 0.7);
 }
 div.ccm-page div.ccm-block-page-list-thumbnail-grid-wrapper i.ccm-block-page-list-page-entry-grid-thumbnail-icon {
   display: block;

@@ -75,7 +75,7 @@ if ($maxHeight == 0) {
 
 <div class="form-group">
     <?php echo $form->label('caption', t('Caption'))?>
-    <?php echo $form->text('caption', $caption, array('style'=>'width: 60%;')); ?>
+    <?php echo $form->textarea('caption', $caption, array('style'=>'width: 60%;')); ?>
 </div>
 
 </fieldset>
