@@ -509,7 +509,7 @@ div.ccm-page div.block-sidebar-wrapped div.ccm-block-share-this-page {
   font-size: 1.5em;
 }
 div.ccm-page div.block-sidebar-wrapped div.ccm-block-share-this-page a {
-  color: #d1d1d1 !important;
+  color: #000000 !important;
 }
 div.ccm-page div.block-sidebar-wrapped div.ccm-block-share-this-page a:hover {
   color: #000000 !important;
@@ -1104,10 +1104,10 @@ div.ccm-page div.ccm-block-page-list-thumbnail-grid-wrapper div.ccm-block-page-l
 }
 div.ccm-page a.ccm-block-page-list-rss-feed {
   font-size: 1.5em;
-  color: #d1d1d1;
+  color: #000000;
 }
 div.ccm-page a.ccm-block-page-list-rss-feed:hover {
-  color: #1a563c;
+  color: #b4b4b4;
 }
 div.ccm-page div.ccm-block-page-list-page-entry-horizontal:before,
 div.ccm-page div.ccm-block-page-list-page-entry-horizontal:after {
@@ -1295,13 +1295,13 @@ div.ccm-page div.ccm-block-tags-wrapper a:hover {
 }
 div.ccm-page span.ccm-block-tags-tag {
   background-color: #ffffff;
-  border-color: #d1d1d1;
+  border-color: #000000;
   border-width: 1px;
   border-style: solid;
   color: #726277;
 }
 div.ccm-page div.ccm-block-tags-wrapper a:hover span.ccm-block-tags-tag {
-  border-color: #1a563c;
+  border-color: #b4b4b4;
 }
 div.ccm-page div.col-sidebar div.ccm-block-topic-list-wrapper {
   margin: 25px 40px 25px 40px;
@@ -1432,10 +1432,10 @@ footer#footer-theme div.ccm-block-social-links {
   text-align: right;
 }
 footer#footer-theme div.ccm-block-social-links ul a {
-  color: #d1d1d1;
+  color: #000000;
 }
 footer#footer-theme div.ccm-block-social-links ul a:hover {
-  color: #1a563c;
+  color: #b4b4b4;
 }
 footer#footer-theme section {
   border-top: 1px solid #d9d9d9;

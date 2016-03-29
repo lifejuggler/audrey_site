@@ -26,6 +26,12 @@
 }
 @media (max-width: 480px) {
   .caption-box {
-    display: none;
+    position: relative;
+  }
+  .img-banner-header {
+    font-size: 1.5em;
+  }
+  .img-banner-body {
+    font-size: 0.8em;
   }
 }
