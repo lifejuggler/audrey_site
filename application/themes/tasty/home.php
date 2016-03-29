@@ -18,7 +18,7 @@ $this->inc('elements/header.php'); ?>
                 ?>
             </section>
         </div>
-        <div class="col-md-12">
+        <div class="col-md-12 full-width">
             <section class="odd-row main-section">
                 <?php
                 $a = new Area('Why Tour');

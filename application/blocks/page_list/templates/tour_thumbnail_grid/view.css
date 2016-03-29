@@ -47,3 +47,10 @@ div.ccm-block-page-list-page-entry-grid-thumbnail-title i {
     display: none;
 }
 
+div.ccm-custom-grid-title {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font: normal normal bold 1.4em raleway,sans-serif;
+    text-transform: uppercase;
+
+}

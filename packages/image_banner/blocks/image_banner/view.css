@@ -12,12 +12,17 @@
   color: white;
   padding: 10px 25px;
 }
-.caption-box .img-header {
-  font-size: 2em;
-  color: white;
-}
 .image-box {
   position: relative;
+}
+.img-banner-header {
+  color: white;
+  font: normal normal bold 2em raleway,sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.img-banner-body {
+  font: normal normal 1.2em 'courier new',courier-ps-w01,courier-ps-w02,courier-ps-w10,monospace;
 }
 @media (max-width: 480px) {
   .caption-box {

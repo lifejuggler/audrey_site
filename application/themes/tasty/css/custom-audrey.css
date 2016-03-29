@@ -1,7 +1,31 @@
+/* Custom Tags */
+.uppercase {
+  text-transform: uppercase !important;    
+}
+
+.capitalize {
+  text-transform: capitalize !important;
+}
+
+.img-center img {
+    margin-left: auto;
+    margin-right: auto;
+}
+.book-button {
+  font: normal normal bold 1em raleway,sans-serif;
+}
+.book-button:hover {
+  background-color: #B4B4B4;
+  transition: color 0.4s ease 0s;
+}
 /* General Styles */
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: raleway,sans-serif;
 }
 .home-container {
   background-color: white;
@@ -14,38 +38,37 @@ html, body {
 .row {
   margin: 0 !important;
 }
+
 .container {
   padding: 0;
   margin: 0;
   width: 100% !important;
 }
+
+.full-width {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
 header {
   display: none;
 }
+
 .ccm-responsive-navigation {
   background: #FFFFFF;
 }
+
 hr {
   margin-top: 10px !important;
   margin-bottom: 10px !important;
 }
+
 main {
   padding-bottom: 0px !important;
-}
-.uppercase {
-  text-transform: uppercase !important;    
-}
-.capitalize {
-  text-transform: capitalize !important;
 }
 
 div.ccm-page header {
     background-color: transparent;
-}
-
-.img-center img {
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .pd-title {
@@ -66,6 +89,51 @@ div.ccm-page header {
     width: 250px;
     padding: 5px 15px 15px 15px;
     background-color: white;
+}
+
+.main-banner-container {
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.rounded-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    border-width:5px;
+    border-style: solid;
+    border-color: white;
+}
+
+.rounded-image img {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+.rounded-image-large{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+}
+
+.rounded-image-large img {
+    margin: 0 auto;
+    height: 300px;
+    width: auto;
+    object-fit: none;
+    object-position: center;
+}
+.small-button:hover {
+  background-color: #B4B4B4;
+  transition: color 0.4s ease 0s;
 }
 /* Dimension Specific */
 /* Large desktops and laptops */

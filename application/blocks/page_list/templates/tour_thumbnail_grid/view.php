@@ -50,7 +50,7 @@ $c = Page::getCurrentPage();
                 </a>
 
                 <?php if ($useButtonForLink) { ?>
-                <div class="ccm-block-page-list-title">
+                <div class="ccm-custom-grid-title">
                     <?php echo $title; ?>
                 </div>
                 <?php } ?>
