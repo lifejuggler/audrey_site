@@ -1,0 +1,46 @@
+.image-box {
+  position: relative;
+  max-height: 300px;
+  overflow: hidden;
+}
+.image-box img{
+  width: 100%;
+  object-fit: cover;
+}
+.banner-title {
+  position: absolute;
+  width: 100%;
+  height: 20%;  
+  background-color: black;
+  opacity: 0.6;
+  font-size: 1.4em;
+  top: 40%;
+  color: white;
+  padding-left: 50px;
+}
+.img-banner-header {
+  color: white;
+  font: normal normal bold 2em raleway,sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  padding-top: 5px; 
+}
+.img-banner-body {
+  font: normal normal 1.1em 'Abel', sans-serif;
+  padding: 5px 0; 
+}
+.col-content {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media (max-width: 480px) {
+  .caption-box {
+    position: relative;
+  }
+  .img-banner-header {
+    font-size: 1.5em;
+  }
+  .img-banner-body {
+    font-size: 0.8em;
+  }
+}

@@ -1,0 +1,56 @@
+/*! http://responsiveslides.com v1.54 by @viljamis */
+
+.ccm-image-slider {
+    position: relative;
+}
+
+.ccm-image-slider-text {
+    position: absolute;
+    width: 45%;
+    left: 0;
+    top: 10%;
+}
+
+.ccm-image-slider-title {
+    margin-top:auto;
+} 
+
+.ccm-image-slider-container a.mega-link-overlay {
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+}
+.ccm-thumb-slider-container {
+    max-width: 100%;
+    overflow: hidden;
+}
+.rslides img {
+    object-fit: contain;
+    height: 300px;
+}
+
+.rslides_here .thumbnail{
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    padding: 3px 3px 3px 3px;
+    border: 1px solid rgba(81, 203, 238, 1);
+    height: 60px;
+    width: 60px;
+}
+.rslide-tabs li a {
+    overflow: hidden;
+    background: blue;
+    display: inline-block;
+    margin-right: 10px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+.thumbnail {
+    width: 62px;
+    height: 62px;
+}
+#gallery-slider {
+    text-align: center;
+}

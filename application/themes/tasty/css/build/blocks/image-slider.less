@@ -1,9 +1,7 @@
 .ccm-image-slider-container {
 
-  border-bottom: 2px solid #f0eee1;
+  border-right: 2px solid #f0eee1;
   padding-top: 20px;
-  margin-bottom: 70px;
-
   background-color: transparent;
   background-repeat: repeat;
   /* background-image is moved to main.less because it needs to be in the theme root */
@@ -45,7 +43,7 @@
       }
     }
     @media (min-width: @screen-lg-min) {
-      width: @container-lg;
+      margin-left: -30px;
       .rslides {
         li {
           max-height: 480px;
@@ -123,11 +121,13 @@
         overflow: hidden;
         text-indent: 99px;
         background: @image-slider-navigation-color;
-        width: 15px;
-        height: 15px;
+        width: 52px;
+        height: 52px;
         display: inline-block;
-        margin-right: 10px;
-        .border-radius(30px);
+        img {
+          height: 100%;
+          object-fit: cover;
+        }
       }
     }
   }
@@ -155,9 +155,7 @@
 
     .ccm-image-slider-inner {
       .make-row();
-      .make-lg-column-offset(1);;
       .make-lg-column(10);
-      margin-bottom: 60px;
     }
   }
 }

@@ -63,3 +63,7 @@
  *
  * ----------------------------------------------------------------------------
  */
+// $al = AssetList::getInstance();
+// $al->register('javascript', 'bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js',
+//   array('version' => '3.3.6', 'position' => Asset::ASSET_POSITION_HEADER, 'minify' => false, 'combine' => false)
+//   );

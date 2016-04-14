@@ -15,7 +15,7 @@ $displayThirdColumn = $blocks > 0 || $c->isEditMode();
                 $a->display();
                 ?>
             </div>
-            <div class="<?php if ($displayThirdColumn) { ?>col-lg-6 col-sm-9 col-xs-12<?php } else { ?>col-sm-9 col-xs-12<?php } ?>">
+            <div class="navbar-section <?php if ($displayThirdColumn) { ?>col-lg-6 col-sm-9 col-xs-12<?php } else { ?>col-sm-9 col-xs-12<?php } ?>">
                 <?php
                 $a = new GlobalArea('Header Navigation');
                 $a->display();

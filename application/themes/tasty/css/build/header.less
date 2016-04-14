@@ -2,8 +2,8 @@ header {
 
   background-color: @header-background-color;
 
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   border-bottom: 1px solid #d9d9d9;
 
   #header-site-title {
@@ -48,6 +48,10 @@ header {
     }
   }
 
+  .navbar-section {
+    line-height: 2.5;
+  }
+
   nav {
 
     .dropdown{
@@ -67,11 +71,9 @@ header {
         font-family: @header-navigation-type-font-family;
         font-size: @header-navigation-type-font-size;
         font-weight: @header-navigation-type-font-weight;
-        color: @header-navigation-type-color;
         text-transform: @header-navigation-type-text-transform;
 
         &:hover {
-          color: @header-navigation-hover-color;
           text-decoration: none;
         }
       }
@@ -96,23 +98,13 @@ header {
         display: inline-block;
         ul {
           li {
-            &:hover {
-              a {
-                color: @header-navigation-menu-text-hover-color;
-              }
-            }
             a {
-              &:hover {
-                color: @header-navigation-menu-text-hover-color;
-              }
               display: block;
-              padding-bottom: 15px;
               font-size: 1.0em;
               text-transform: none;
-              color: @header-navigation-menu-text-color;
               .transition(all .25s ease);
               font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
-              font-weight: normal;
+              font-weight: bold;
             }
             float: none;
             width: 100%;

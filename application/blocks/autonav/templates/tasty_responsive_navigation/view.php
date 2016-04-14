@@ -54,8 +54,7 @@ $navItems = $controller->getNavItems();
 /*** STEP 1 of 2: Determine all CSS classes (only 2 are enabled by default, but you can un-comment other ones or add your own) ***/
 foreach ($navItems as $ni) {
     $classes = array();
-
-    if ($ni->isCurrent) {
+    if (($ni->isCurrent) && ($ni->level == 1)) {
         //class for the page currently being viewed
         $classes[] = 'nav-selected';
     }
@@ -113,7 +112,8 @@ foreach ($navItems as $ni) {
 //*** Step 2 of 2: Output menu HTML ***/
 
 echo '<nav class="ccm-responsive-navigation original"><ul>'; //opens the top-level menu
-$rainbowColor = array("#E64A3C", "#E57E22", "#EFC30F", "#2DCA70", "#3397D8", "#9B59B5");
+$rainbowColor = array("nav-red", "nav-orange", "nav-yellow", "nav-green", "nav-blue", "nav-indigo", "nav-purple");
+$subColor = array("sub-red", "sub-orange", "sub-yellow", "sub-green", "sub-blue", "sub-indigo", "sub-purple");
 $cIndex = 0;
 $cIndex1 = 0;
 foreach ($navItems as $ni) {
@@ -124,15 +124,19 @@ foreach ($navItems as $ni) {
         $cIndex1 = 0;
     }
     if ($ni->cObj->getAttribute('exclude_from_header') != 1) {
-        echo '<li class="' . $ni->classes . '">'; //opens a nav item
+        if (($ni->hasSubmenu) && ($ni->level == 1)) {
+            echo '<li class="' . $rainbowColor[$cIndex] . " " . $ni->classes . '">'; //opens a nav item
+        } elseif ($ni->level == 2) {
+            echo '<li class="' . $subColor[$cIndex1] . " " . $ni->classes . '">'; //opens a nav item
+        } else {
+            echo '<li class="' . $rainbowColor[$cIndex] . " " . $ni->classes . '">'; //opens a nav item
+        }
         $name = (isset($translate) && $translate == true) ? t($ni->name) : $ni->name;
 
         if (($ni->hasSubmenu) && ($ni->level == 1)) {
-            echo '<a href="' . $ni->url . '" target="' . $ni->target . '" class="' . $ni->classes .'" style= color:' . $rainbowColor[$cIndex] . '>' . $name . '<i class="icon-chevron-down two-spaces"></i></a>';
-        } elseif ($ni->level == 2) {
-            echo '<a href="' . $ni->url . '" target="' . $ni->target . '" class="' . $ni->classes .'" style= color:' . $rainbowColor[$cIndex1] . '>' . $name . '</a>';         
+            echo '<a href="' . $ni->url . '" target="' . $ni->target . '" class="' . $ni->classes . '">' . $name . '<i class="icon-chevron-down two-spaces"></i></a>';        
         } else {
-            echo '<a href="' . $ni->url . '" target="' . $ni->target . '" class="' . $ni->classes .'" style= color:' . $rainbowColor[$cIndex] . '>' . $name . '</a>';      
+            echo '<a href="' . $ni->url . '" target="' . $ni->target . '" class="' . $ni->classes . '">' . $name . '</a>';      
         }
         
         if ($ni->hasSubmenu) {

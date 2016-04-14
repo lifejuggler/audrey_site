@@ -126,8 +126,8 @@ div.ccm-page div.ccm-system-errors {
 }
 div.ccm-page header {
   background-color: #ffffff;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   border-bottom: 1px solid #d9d9d9;
 }
 div.ccm-page header #header-site-title {
@@ -170,6 +170,9 @@ div.ccm-page header .ccm-search-block-form .ccm-search-block-text {
 div.ccm-page header .ccm-search-block-form .ccm-search-block-text:focus {
   outline: 0;
 }
+div.ccm-page header .navbar-section {
+  line-height: 2.5;
+}
 div.ccm-page header nav .dropdown:after {
   content: ' ▶';
 }
@@ -187,7 +190,7 @@ div.ccm-page header nav ul a {
   padding-right: 40px;
   font-family: Arial, sans-serif;
   font-size: 1em;
-  font-weight: 700;
+  font-weight: 900;
   color: #000000;
   text-transform: uppercase;
 }

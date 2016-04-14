@@ -8,7 +8,7 @@ class PageTheme extends \Concrete\Core\Page\Theme\Theme implements ThemeProvider
 {
     public function registerAssets()
     {
-        //$this->providesAsset('javascript', 'bootstrap/*');
+        $this->providesAsset('javascript', 'bootstrap/*');
         $this->providesAsset('css', 'bootstrap/*');
         $this->providesAsset('css', 'blocks/form');
         $this->providesAsset('css', 'blocks/social_links');
@@ -23,8 +23,8 @@ class PageTheme extends \Concrete\Core\Page\Theme\Theme implements ThemeProvider
         $this->providesAsset('css', 'blocks/feature/templates/hover_description');
 
         $this->providesAsset('css', 'blocks/event_list');
-
         $this->requireAsset('css', 'font-awesome');
+        
         $this->requireAsset('javascript', 'jquery');
         $this->requireAsset('javascript', 'picturefill');
         $this->requireAsset('javascript-conditional', 'html5-shiv');

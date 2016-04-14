@@ -1,4 +1,5 @@
 @import url(//fonts.googleapis.com/css?family=Titillium+Web:200,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Abel);
 /* Import bootstrap 3 mixins and variables so we can use them */
 /* Import core mixins so we can use them */
 .clear_float:before,
@@ -126,8 +127,8 @@ div.ccm-page div.ccm-system-errors {
 }
 div.ccm-page header {
   background-color: #ffffff;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   border-bottom: 1px solid #d9d9d9;
 }
 div.ccm-page header #header-site-title {
@@ -170,6 +171,9 @@ div.ccm-page header .ccm-search-block-form .ccm-search-block-text {
 div.ccm-page header .ccm-search-block-form .ccm-search-block-text:focus {
   outline: 0;
 }
+div.ccm-page header .navbar-section {
+  line-height: 2.5;
+}
 div.ccm-page header nav .dropdown:after {
   content: ' ▶';
 }
@@ -187,12 +191,10 @@ div.ccm-page header nav ul a {
   padding-right: 40px;
   font-family: Arial, sans-serif;
   font-size: 1em;
-  font-weight: 700;
-  color: #000000;
+  font-weight: 900;
   text-transform: uppercase;
 }
 div.ccm-page header nav ul a:hover {
-  color: #889298;
   text-decoration: none;
 }
 div.ccm-page header nav ul li {
@@ -234,23 +236,15 @@ div.ccm-page header nav ul li ul li {
   width: 100%;
   padding-bottom: 0px;
 }
-div.ccm-page header nav ul li ul li:hover a {
-  color: #0099ff;
-}
 div.ccm-page header nav ul li ul li a {
   display: block;
-  padding-bottom: 15px;
   font-size: 1.0em;
   text-transform: none;
-  color: #a2a2a2;
   -webkit-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
   transition: all 0.25s ease;
   font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-weight: normal;
-}
-div.ccm-page header nav ul li ul li a:hover {
-  color: #0099ff;
+  font-weight: bold;
 }
 div.ccm-page div.ccm-pagination-wrapper {
   text-align: center;
@@ -381,11 +375,13 @@ div.ccm-page .btn-success {
   background-color: #00cc66;
   border-color: #4cae4c;
 }
-div.ccm-page .btn-success:hover,
 div.ccm-page .btn-success:focus,
-div.ccm-page .btn-success:active,
-div.ccm-page .btn-success.active,
-.open > .dropdown-togglediv.ccm-page .btn-success {
+div.ccm-page .btn-success.focus {
+  color: #ffffff;
+  background-color: #00994d;
+  border-color: #255625;
+}
+div.ccm-page .btn-success:hover {
   color: #ffffff;
   background-color: #00994d;
   border-color: #398439;
@@ -393,23 +389,37 @@ div.ccm-page .btn-success.active,
 div.ccm-page .btn-success:active,
 div.ccm-page .btn-success.active,
 .open > .dropdown-togglediv.ccm-page .btn-success {
+  color: #ffffff;
+  background-color: #00994d;
+  border-color: #398439;
+}
+div.ccm-page .btn-success:active:hover,
+div.ccm-page .btn-success.active:hover,
+.open > .dropdown-togglediv.ccm-page .btn-success:hover,
+div.ccm-page .btn-success:active:focus,
+div.ccm-page .btn-success.active:focus,
+.open > .dropdown-togglediv.ccm-page .btn-success:focus,
+div.ccm-page .btn-success:active.focus,
+div.ccm-page .btn-success.active.focus,
+.open > .dropdown-togglediv.ccm-page .btn-success.focus {
+  color: #ffffff;
+  background-color: #00753b;
+  border-color: #255625;
+}
+div.ccm-page .btn-success:active,
+div.ccm-page .btn-success.active,
+.open > .dropdown-togglediv.ccm-page .btn-success {
   background-image: none;
 }
-div.ccm-page .btn-success.disabled,
-div.ccm-page .btn-success[disabled],
-fieldset[disabled] div.ccm-page .btn-success,
 div.ccm-page .btn-success.disabled:hover,
 div.ccm-page .btn-success[disabled]:hover,
 fieldset[disabled] div.ccm-page .btn-success:hover,
 div.ccm-page .btn-success.disabled:focus,
 div.ccm-page .btn-success[disabled]:focus,
 fieldset[disabled] div.ccm-page .btn-success:focus,
-div.ccm-page .btn-success.disabled:active,
-div.ccm-page .btn-success[disabled]:active,
-fieldset[disabled] div.ccm-page .btn-success:active,
-div.ccm-page .btn-success.disabled.active,
-div.ccm-page .btn-success[disabled].active,
-fieldset[disabled] div.ccm-page .btn-success.active {
+div.ccm-page .btn-success.disabled.focus,
+div.ccm-page .btn-success[disabled].focus,
+fieldset[disabled] div.ccm-page .btn-success.focus {
   background-color: #00cc66;
   border-color: #4cae4c;
 }
@@ -422,11 +432,13 @@ div.ccm-page .btn-default {
   background-color: #ffffff;
   border-color: #b7e390;
 }
-div.ccm-page .btn-default:hover,
 div.ccm-page .btn-default:focus,
-div.ccm-page .btn-default:active,
-div.ccm-page .btn-default.active,
-.open > .dropdown-togglediv.ccm-page .btn-default {
+div.ccm-page .btn-default.focus {
+  color: #726277;
+  background-color: #e6e6e6;
+  border-color: #75c231;
+}
+div.ccm-page .btn-default:hover {
   color: #726277;
   background-color: #e6e6e6;
   border-color: #97d75f;
@@ -434,23 +446,37 @@ div.ccm-page .btn-default.active,
 div.ccm-page .btn-default:active,
 div.ccm-page .btn-default.active,
 .open > .dropdown-togglediv.ccm-page .btn-default {
+  color: #726277;
+  background-color: #e6e6e6;
+  border-color: #97d75f;
+}
+div.ccm-page .btn-default:active:hover,
+div.ccm-page .btn-default.active:hover,
+.open > .dropdown-togglediv.ccm-page .btn-default:hover,
+div.ccm-page .btn-default:active:focus,
+div.ccm-page .btn-default.active:focus,
+.open > .dropdown-togglediv.ccm-page .btn-default:focus,
+div.ccm-page .btn-default:active.focus,
+div.ccm-page .btn-default.active.focus,
+.open > .dropdown-togglediv.ccm-page .btn-default.focus {
+  color: #726277;
+  background-color: #d4d4d4;
+  border-color: #75c231;
+}
+div.ccm-page .btn-default:active,
+div.ccm-page .btn-default.active,
+.open > .dropdown-togglediv.ccm-page .btn-default {
   background-image: none;
 }
-div.ccm-page .btn-default.disabled,
-div.ccm-page .btn-default[disabled],
-fieldset[disabled] div.ccm-page .btn-default,
 div.ccm-page .btn-default.disabled:hover,
 div.ccm-page .btn-default[disabled]:hover,
 fieldset[disabled] div.ccm-page .btn-default:hover,
 div.ccm-page .btn-default.disabled:focus,
 div.ccm-page .btn-default[disabled]:focus,
 fieldset[disabled] div.ccm-page .btn-default:focus,
-div.ccm-page .btn-default.disabled:active,
-div.ccm-page .btn-default[disabled]:active,
-fieldset[disabled] div.ccm-page .btn-default:active,
-div.ccm-page .btn-default.disabled.active,
-div.ccm-page .btn-default[disabled].active,
-fieldset[disabled] div.ccm-page .btn-default.active {
+div.ccm-page .btn-default.disabled.focus,
+div.ccm-page .btn-default[disabled].focus,
+fieldset[disabled] div.ccm-page .btn-default.focus {
   background-color: #ffffff;
   border-color: #b7e390;
 }
@@ -529,7 +555,6 @@ div.ccm-page div.blog-entry-list div.ccm-block-page-list-page-entry-horizontal d
 }
 div.ccm-page div.blog-entry-list div.ccm-block-page-list-page-entry-horizontal div.ccm-block-page-list-page-entry-thumbnail img {
   display: block;
-  width: 100% \9;
   max-width: 100%;
   height: auto;
 }
@@ -576,7 +601,7 @@ div.ccm-page div.recent-blog-entry div.ccm-block-page-list-title a {
   color: #4f585c;
 }
 div.ccm-page div.recent-blog-entry div.ccm-block-page-list-title a:hover {
-  color: #428bca;
+  color: #337ab7;
   text-decoration: none;
 }
 div.ccm-page div.recent-blog-entry div.ccm-block-page-list-page-entry {
@@ -763,9 +788,8 @@ div.ccm-page div.ccm-block-feature-item-hover-wrapper:hover div.ccm-block-featur
   border: 1px solid #4d4d4d;
 }
 div.ccm-page .ccm-image-slider-container {
-  border-bottom: 2px solid #f0eee1;
+  border-right: 2px solid #f0eee1;
   padding-top: 20px;
-  margin-bottom: 70px;
   background-color: transparent;
   background-repeat: repeat;
   /* background-image is moved to main.less because it needs to be in the theme root */
@@ -805,7 +829,7 @@ div.ccm-page .ccm-image-slider-container .ccm-image-slider .rslides li {
 }
 @media (min-width: 1200px) {
   div.ccm-page .ccm-image-slider-container .ccm-image-slider {
-    width: 1170px;
+    margin-left: -30px;
   }
   div.ccm-page .ccm-image-slider-container .ccm-image-slider .rslides li {
     max-height: 480px;
@@ -907,14 +931,13 @@ div.ccm-page .ccm-image-slider-container .rslides_tabs li a {
   overflow: hidden;
   text-indent: 99px;
   background: #ccccc9;
-  width: 15px;
-  height: 15px;
+  width: 52px;
+  height: 52px;
   display: inline-block;
-  margin-right: 10px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
-  -ms-border-radius: 30px;
+}
+div.ccm-page .ccm-image-slider-container .rslides_tabs li a img {
+  height: 100%;
+  object-fit: cover;
 }
 div.ccm-page .ccm-image-slider-container .ccm-image-slider-text h2 {
   color: #3fa076;
@@ -937,12 +960,6 @@ div.ccm-page .ccm-image-slider-container.ccm-block-image-slider-arrows .ccm-imag
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-bottom: 60px;
-}
-@media (min-width: 1200px) {
-  div.ccm-page .ccm-image-slider-container.ccm-block-image-slider-arrows .ccm-image-slider-inner {
-    margin-left: 8.33333333%;
-  }
 }
 @media (min-width: 1200px) {
   div.ccm-page .ccm-image-slider-container.ccm-block-image-slider-arrows .ccm-image-slider-inner {
@@ -998,11 +1015,13 @@ div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm
   background-color: #ffffff;
   border-color: #b7e390;
 }
-div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more:hover,
 div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more:focus,
-div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more:active,
-div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more.active,
-.open > .dropdown-togglediv.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more {
+div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more.focus {
+  color: #726277;
+  background-color: #e6e6e6;
+  border-color: #75c231;
+}
+div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more:hover {
   color: #726277;
   background-color: #e6e6e6;
   border-color: #97d75f;
@@ -1010,23 +1029,37 @@ div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm
 div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more:active,
 div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more.active,
 .open > .dropdown-togglediv.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more {
+  color: #726277;
+  background-color: #e6e6e6;
+  border-color: #97d75f;
+}
+div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more:active:hover,
+div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more.active:hover,
+.open > .dropdown-togglediv.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more:hover,
+div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more:active:focus,
+div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more.active:focus,
+.open > .dropdown-togglediv.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more:focus,
+div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more:active.focus,
+div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more.active.focus,
+.open > .dropdown-togglediv.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more.focus {
+  color: #726277;
+  background-color: #d4d4d4;
+  border-color: #75c231;
+}
+div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more:active,
+div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more.active,
+.open > .dropdown-togglediv.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more {
   background-image: none;
 }
-div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more.disabled,
-div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more[disabled],
-fieldset[disabled] div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more,
 div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more.disabled:hover,
 div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more[disabled]:hover,
 fieldset[disabled] div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more:hover,
 div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more.disabled:focus,
 div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more[disabled]:focus,
 fieldset[disabled] div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more:focus,
-div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more.disabled:active,
-div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more[disabled]:active,
-fieldset[disabled] div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more:active,
-div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more.disabled.active,
-div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more[disabled].active,
-fieldset[disabled] div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more.active {
+div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more.disabled.focus,
+div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more[disabled].focus,
+fieldset[disabled] div.ccm-page div.page-list-with-buttons div.ccm-block-page-list-page-entry a.ccm-block-page-list-read-more.focus {
   background-color: #ffffff;
   border-color: #b7e390;
 }
@@ -1241,7 +1274,6 @@ div.ccm-page div.ccm-block-testimonial div.ccm-block-testimonial-text {
 }
 div.ccm-page div.ccm-block-testimonial img {
   display: block;
-  width: 100% \9;
   max-width: 100%;
   height: auto;
   -webkit-border-radius: 50%;
@@ -1430,6 +1462,7 @@ footer#footer-theme a:hover {
 }
 footer#footer-theme div.ccm-block-social-links {
   text-align: right;
+  font-size: 1.3em;
 }
 footer#footer-theme div.ccm-block-social-links ul a {
   color: #000000;

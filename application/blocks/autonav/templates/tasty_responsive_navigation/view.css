@@ -2,7 +2,8 @@
     display: none;
 }
 div.ccm-page header nav ul a {
-  padding-right: 30px;
+  padding: 5px 10px;
+  margin: 0 7px;
 }
 .two-spaces {
   margin-left: 10px;
@@ -10,4 +11,9 @@ div.ccm-page header nav ul a {
 ul.main-sub-menu {
   margin-left: 0px;
   top: 15px !important;
+}
+
+div.ccm-page header nav ul li .main-sub-menu {
+  padding: 5px 10px;
+  margin: 0 5px;
 }

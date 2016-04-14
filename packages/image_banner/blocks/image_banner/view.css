@@ -4,7 +4,7 @@
 .caption-box {
   position: absolute;
   width: 100%;
-  min-height: 150px;
+  min-height: 150px;  
   background-color: black;
   opacity: 0.8;
   font-size: 1.2em;
@@ -20,9 +20,14 @@
   font: normal normal bold 2em raleway,sans-serif;
   text-transform: uppercase;
   padding-bottom: 10px;
+  padding-top: 5px; 
 }
 .img-banner-body {
-  font: normal normal 1.2em 'courier new',courier-ps-w01,courier-ps-w02,courier-ps-w10,monospace;
+  font: normal normal 1.1em 'Abel', sans-serif;
+  padding: 5px 0; 
+}
+.caption-box hr {
+
 }
 @media (max-width: 480px) {
   .caption-box {
