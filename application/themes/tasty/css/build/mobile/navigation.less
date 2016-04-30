@@ -3,33 +3,18 @@
   display: none;
   position: absolute;
   border-bottom: 5px solid @header-site-title-type-color;
-  width: 100%;
+  width: 80%;
   z-index: 99;
   top: 120px;
-  left: 0px;
+  left: 10%;
   padding-top: 15px;
-  padding-left: 20px;
   -webkit-text-size-adjust: none;
   ul {
     padding-left: 0;
+    margin: 0 !important;
     li {
+      border: solid 1px;
       list-style-type: none;
-      &.parent-ul {
-        a {
-          &:after {
-            padding-left: 7px;
-            padding-top: 3px;
-            font-size: 20px;
-            content: "\f107";
-            font-family: FontAwesome;
-            font-weight: normal;
-            font-style: normal;
-            display: inline-block;
-            cursor: pointer;
-            text-decoration: inherit;
-          }
-        }
-      }
       a {
         &:hover {
           color: @header-navigation-hover-color;;
@@ -75,7 +60,7 @@
       &:after {
         font-size: 20px;
         color: @header-navigation-type-color;
-        content: "\f077";
+        content: "\f00d";
         font-family: FontAwesome;
         font-weight: normal;
         font-style: normal;

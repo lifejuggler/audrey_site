@@ -1519,32 +1519,21 @@ footer#concrete5-brand a:hover {
   display: none;
   position: absolute;
   border-bottom: 5px solid #000000;
-  width: 100%;
+  width: 80%;
   z-index: 99;
   top: 120px;
-  left: 0px;
+  left: 10%;
   padding-top: 15px;
-  padding-left: 20px;
   -webkit-text-size-adjust: none;
 }
 .ccm-responsive-overlay ul {
   padding-left: 0;
+  margin: 0 !important;
 }
 .ccm-responsive-overlay ul li {
+  border: solid 1px;
   list-style-type: none;
   display: block;
-}
-.ccm-responsive-overlay ul li.parent-ul a:after {
-  padding-left: 7px;
-  padding-top: 3px;
-  font-size: 20px;
-  content: "\f107";
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  display: inline-block;
-  cursor: pointer;
-  text-decoration: inherit;
 }
 .ccm-responsive-overlay ul li a {
   color: #000000;
@@ -1580,7 +1569,7 @@ footer#concrete5-brand a:hover {
 .ccm-responsive-menu-launch.responsive-button-close i:after {
   font-size: 20px;
   color: #000000;
-  content: "\f077";
+  content: "\f00d";
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
