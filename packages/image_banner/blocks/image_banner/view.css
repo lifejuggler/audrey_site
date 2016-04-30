@@ -4,9 +4,8 @@
 .caption-box {
   position: absolute;
   width: 100%;
-  min-height: 150px;  
-  background-color: black;
-  opacity: 0.8;
+  min-height: 150px;
+  background-color:rgba( 0, 0, 0, 0.8);
   font-size: 1.2em;
   bottom: 0;
   color: white;
@@ -20,14 +19,34 @@
   font: normal normal bold 2em raleway,sans-serif;
   text-transform: uppercase;
   padding-bottom: 10px;
-  padding-top: 5px; 
+  padding-top: 5px;
 }
 .img-banner-body {
   font: normal normal 1.1em 'Abel', sans-serif;
-  padding: 5px 0; 
+  padding: 5px 0;
 }
-.caption-box hr {
-
+.detail-button-container {
+  margin-top: 50px;
+}
+.banner-detail-button {
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #2ecc71;
+  font-size: 1.5em;
+  color: white !important;
+  height: 100%;
+  opacity: 1;
+}
+.banner-detail-button:hover {
+    background-color: #1E824C;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -ms-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
 }
 @media (max-width: 480px) {
   .caption-box {

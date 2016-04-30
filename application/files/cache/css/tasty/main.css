@@ -788,7 +788,8 @@ div.ccm-page div.ccm-block-feature-item-hover-wrapper:hover div.ccm-block-featur
   border: 1px solid #4d4d4d;
 }
 div.ccm-page .ccm-image-slider-container {
-  border-right: 2px solid #f0eee1;
+  border-right: 2px solid black;
+  border-style: none dashed none none;
   padding-top: 20px;
   background-color: transparent;
   background-repeat: repeat;

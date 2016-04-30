@@ -132,13 +132,11 @@ foreach ($navItems as $ni) {
             echo '<li class="' . $rainbowColor[$cIndex] . " " . $ni->classes . '">'; //opens a nav item
         }
         $name = (isset($translate) && $translate == true) ? t($ni->name) : $ni->name;
-
         if (($ni->hasSubmenu) && ($ni->level == 1)) {
             echo '<a href="' . $ni->url . '" target="' . $ni->target . '" class="' . $ni->classes . '">' . $name . '<i class="icon-chevron-down two-spaces"></i></a>';        
         } else {
             echo '<a href="' . $ni->url . '" target="' . $ni->target . '" class="' . $ni->classes . '">' . $name . '</a>';      
         }
-        
         if ($ni->hasSubmenu) {
             echo '<ul class="main-sub-menu">'; //opens a dropdown sub-menu
         } else {

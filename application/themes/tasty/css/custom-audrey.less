@@ -17,29 +17,77 @@ html, body {
 }
 /* Custom Tags */
 .uppercase {
-  text-transform: uppercase !important;    
+  text-transform: uppercase !important;
 }
-
 .capitalize {
   text-transform: capitalize !important;
 }
-
+.section-title {
+  font-size: 2em;
+  color: black;
+  background-color: white;
+  text-transform: uppercase;
+  font-family: Titillium Web;
+  line-height: 1.42857143;
+  font-weight: 700;
+  padding: 30px 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: -15px;
+}
 .img-center img {
     margin-left: auto;
     margin-right: auto;
 }
-
 .book-button {
-  font: normal normal bold 1em raleway,sans-serif;
-
+  height: 40px;
+  width: 120px;
+  font-family: Arial, sans-serif;
+  font-size: 1.2em;
+  text-transform: uppercase !important;
   &:hover {
     background-color: #B4B4B4;
-    -webkit-transition: background-color 0.2s ease-out;
-    -moz-transition: background-color 0.2s ease-out;
-    -ms-transition: background-color 0.2s ease-out;
-    -o-transition: background-color 0.2s ease-out;
-    transition: background-color 0.2s ease-out;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -ms-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
   }
+}
+.tour-detail-link {
+  background-color: black;
+  width: 150px;
+  padding: 2px 20px;
+  text-align: center;
+  color: white !important;
+  font-weight: 400;
+  text-transform: uppercase;
+  font: normal normal normal 1.1em raleway,sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  &:hover {
+    background-color: #B4B4B4;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -ms-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+  }
+}
+.tour-detail-title {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font: normal normal bold 1.4em raleway,sans-serif;
+  text-transform: uppercase;
+}
+.tour-detail-pic {
+  img {
+    object-fit: cover;
+    height: 250px;
+  }
+  height: 250px;
+  width: 400px;
+  overflow: cover;
 }
 /* General Styles */
 .info-group {
@@ -48,6 +96,8 @@ html, body {
 /* Tab Styles */
 .tab-pane {
   padding: 25px 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 div.ccm-page header {
   background-color: transparent !important;
@@ -67,7 +117,6 @@ h1, h2, h3, h4 {
 .container {
   padding: 0;
   margin: 0;
-  width: 100% !important;
 }
 
 .full-width {
@@ -126,13 +175,13 @@ main {
   border-width:5px;
   border-style: solid;
   border-color: white;
-  
+
   img {
     margin: 0 auto;
     width: 200px;
     height: 200px;
     object-fit: cover;
-  } 
+  }
 }
 
 .rounded-image-large{
@@ -142,7 +191,7 @@ main {
   overflow: hidden;
   position: relative;
   z-index: 3;
-  
+
   img {
     margin: 0 auto;
     height: 300px;
@@ -152,19 +201,14 @@ main {
   }
 }
 
-.small-button:hover {
-  background-color: #B4B4B4;
-  -webkit-transition: background-color 0.2s ease-out;
-  -moz-transition: background-color 0.2s ease-out;
-  -ms-transition: background-color 0.2s ease-out;
-  -o-transition: background-color 0.2s ease-out;
-  transition: background-color 0.2s ease-out;
-}
 /* Dimension Specific */
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
+  .page-padding {
+    margin: 0 55px;
+  }
   .row {
-    margin-left: 0px !important; 
+    margin-left: 0px !important;
   }
   .placard {
     padding: 0px 10px 0px 0px;
@@ -192,11 +236,14 @@ main {
   .info-result {
     font-weight: bold;
   }
+  .book-button {
+    margin-top: 9px;
+  }
 }
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
-  
+
 }
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -214,21 +261,31 @@ main {
   }
   .navbar-logo {
   }
+  .button-container {
+    padding-top: 20px;
+  }
   .header-navbar {
     width: 100%;
     height: 50px;
+    line-height: 2;
+  }
+  .ccm-responsive-menu-launch i:after {
+    font-size: 1.8em !important;
   }
   .book-button {
-    width: 240px !important;
     margin-left: auto;
     margin-right: auto;
     vertical-align: middle;
   }
   .ccm-responsive-overlay {
-    top: 170px !important;
+    top: 200px !important;
   }
   .desc-tours .ccm-layout-column {
     width: 100% !important;
     padding-top: 10px;
+  }
+  .ccm-block-social-links {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
