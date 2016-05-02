@@ -3,26 +3,28 @@
   display: none;
   position: absolute;
   border-bottom: 5px solid @header-site-title-type-color;
-  width: 80%;
+  width: 90%;
   z-index: 99;
   top: 120px;
-  left: 10%;
-  padding-top: 15px;
+  left: 5%;
   -webkit-text-size-adjust: none;
   ul {
     padding-left: 0;
     margin: 0 !important;
     li {
-      border: solid 1px;
+      border: solid 1px white;
       list-style-type: none;
+      padding: 10px 0;
+      background-color:#A08FA6;
       a {
         &:hover {
-          color: @header-navigation-hover-color;;
+          color: red;
         }
-        color: @header-navigation-type-color;
+        text-transform: uppercase !important;
+        color: white;
         font-size: 18px;
         display: inline-block;
-        width: 80%;
+        width: 90%;
         padding: 7px 5% 7px 0px;
         margin: 0% 5% 0% 0;
         padding-left: 15px;
@@ -54,12 +56,12 @@
   display: none;
   cursor: pointer;
   margin-top: 10px;
-  float: right;
+  margin-left: 5px;
   &.responsive-button-close {
     i {
       &:after {
         font-size: 20px;
-        color: @header-navigation-type-color;
+        color: white;
         content: "\f00d";
         font-family: FontAwesome;
         font-weight: normal;
@@ -72,10 +74,13 @@
   }
   i {
     &:after {
+      padding: 0 15px;
+      border-radius: 4px;
+      background-color: #A08FA6;
       font-size: 20px;
       content: "\f0c9";
       font-family: FontAwesome;
-      color: @header-navigation-type-color;
+      color: white;
       font-weight: normal;
       font-style: normal;
       display: inline-block;

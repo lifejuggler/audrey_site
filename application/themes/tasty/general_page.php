@@ -13,7 +13,7 @@ $this->inc('elements/header.php'); ?>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12 col-content">
+            <div class="col-xs-12 col-content">
                 <?php
                 $a = new Area('Content');
                 $a->enableGridContainer();

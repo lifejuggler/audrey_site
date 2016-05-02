@@ -236,8 +236,13 @@ body {
   height: 250px;
 }
 /* General Styles */
-.info-group {
+.info-group,
+.info-group-first {
   display: block;
+}
+.info-group .info-title,
+.info-group-first .info-title {
+  font-weight: bold;
 }
 /* Tab Styles */
 .tab-pane {
@@ -261,6 +266,9 @@ h4 {
   clear: both;
   content: "";
   display: block;
+}
+.main-section .container {
+  width: 100% !important;
 }
 .container {
   padding: 0;
@@ -354,7 +362,7 @@ main {
     margin: 10px 10px 40px 10px;
   }
   .tour-info {
-    padding: 20px 10px;
+    padding: 0 !important;
   }
   .bold-title {
     font-size: 2em;
@@ -364,7 +372,10 @@ main {
     font-size: 1.2em;
   }
   .info-group {
-    padding: 5px 0px;
+    margin: 10px 0px;
+  }
+  .info-group-first {
+    margin: 0 0 10px 0;
   }
   .info-result {
     font-weight: bold;
@@ -384,8 +395,13 @@ main {
   h1 {
     font-size: 2.3em !important;
   }
+  .navbar-logo {
+    padding: 20px 0;
+  }
   .button-container {
     padding-top: 20px;
+    float: right;
+    padding-right: 10%;
   }
   .header-navbar {
     width: 100%;
@@ -410,5 +426,23 @@ main {
   .ccm-block-social-links {
     margin-left: auto;
     margin-right: auto;
+  }
+  .col-md-8,
+  .col-xs-12,
+  .col-am-3 {
+    padding-left: 0 !important;
+  }
+  .col-xs-12 {
+    padding-right: 45px !important;
+  }
+  .tour-info {
+    padding: 20px 0 40px 0;
+  }
+  .info-group {
+    font-size: 1.2em;
+  }
+  .ccm-block-social-links {
+    padding: 20px 0;
+    text-align: center !important;
   }
 }

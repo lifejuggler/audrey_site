@@ -10,70 +10,70 @@ $this->inc('elements/header.php'); ?>
     $a->display($c);
     ?>
     <div class="row placard">
-      <div class="col-md-8 col-content">
+      <div class="col-md-7 col-xs-12 col-content">
           <?php
             $a = new Area('Picture');
             $a->display($c);
           ?>
       </div>
-      <div class="col-md-4 col-content tour-info">
-        <div class="info-group">
-          <div class="col-md-4">
+      <div class="col-md-5 col-xs-12 col-content tour-info">
+        <div >
+          <div class="col-xs-4 info-group-first">
             <span class="info-title">Location</span>
           </div>
-          <div class="col-md-8">
+          <div class="col-xs-8 info-group-first">
             <?php
               $a = new Area('Location');
               $a->display($c);
             ?>
           </div>
         </div>
-        <div class="info-group">
-          <div class="col-md-4">
+        <div >
+          <div class="col-xs-4 info-group">
             <span class="info-title">Features</span>
           </div>
-          <div class="col-md-8">
+          <div class="col-xs-8 info-group">
             <?php
               $a = new Area('Features');
               $a->display($c);
             ?>
           </div>
         </div>
-        <div class="info-group">
-          <div class="col-md-4">
+        <div >
+          <div class="col-xs-4 info-group">
             <span class="info-title">Group Size</span>
           </div>
-          <div class="col-md-8">
+          <div class="col-xs-8 info-group">
             <?php
               $a = new Area('Size');
               $a->display($c);
             ?>
           </div>
         </div>
-        <div class="info-group">
-          <div class="col-md-4">
+        <div >
+          <div class="col-xs-4 info-group">
             <span class="info-title">Time</span>
           </div>
-          <div class="col-md-8">
+          <div class="col-xs-8 info-group">
             <?php
               $a = new Area('Time');
               $a->display($c);
             ?>
           </div>
         </div>
-        <div class="info-group">
-          <div class="col-md-4">
+        <div >
+          <div class="col-xs-4 info-group">
             <span class="info-title">Price</span>
           </div>
-          <div class="col-md-8">
+          <div class="col-xs-8 info-group">
             <?php
               $a = new Area('Price');
               $a->display($c);
             ?>
           </div>
         </div>
-        <div class="info-group">
-          <div class="col-md-12">
+        <div >
+          <div class="col-xs-12 info-group">
             <?php
                 $a = new Area('Misc');
                 $a->display($c);
