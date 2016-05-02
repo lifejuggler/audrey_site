@@ -40,8 +40,7 @@ html, body {
     margin-right: auto;
 }
 .book-button {
-  height: 40px;
-  width: 120px;
+  padding: 10px;
   font-family: Arial, sans-serif;
   font-size: 1.2em;
   text-transform: uppercase !important;
@@ -99,7 +98,7 @@ html, body {
 /* Tab Styles */
 .tab-pane {
   padding: 25px 0px;
-  overflow-y: scroll;
+  overflow-y: hidden;
   overflow-x: hidden;
 }
 div.ccm-page header {
@@ -272,7 +271,7 @@ main {
   .navbar-logo {
     padding: 20px 0;
   }
-  .button-container {
+  .book-button-container {
     padding-top: 20px;
     float: right;
     padding-right: 10%;
@@ -286,12 +285,14 @@ main {
     font-size: 1.8em !important;
   }
   .book-button {
-    margin-left: auto;
-    margin-right: auto;
     vertical-align: middle;
+    margin-top: 12px;
+    float: right;
+    margin-right: 20px;
+    padding: 15px;
   }
   .ccm-responsive-overlay {
-    top: 200px !important;
+    top: 250px !important;
   }
   .desc-tours .ccm-layout-column {
     width: 100% !important;
@@ -308,7 +309,10 @@ main {
     padding-left: 0 !important;
   }
   .col-xs-12 {
-    padding-right: 45px !important;
+    padding-right: 0px !important;
+  }
+  .row {
+    margin-left: -13px !important;
   }
   .tour-info {
     padding: 20px 0 40px 0;
