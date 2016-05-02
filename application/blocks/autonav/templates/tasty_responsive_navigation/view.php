@@ -78,12 +78,12 @@ foreach ($navItems as $ni) {
     }
     */
 
-    
+
     if ($ni->hasSubmenu) {
         //class for items that have dropdown sub-menus
         $classes[] = 'nav-dropdown';
     }
-    
+
 
     /*
     if (!empty($ni->attrClass)) {
@@ -133,9 +133,9 @@ foreach ($navItems as $ni) {
         }
         $name = (isset($translate) && $translate == true) ? t($ni->name) : $ni->name;
         if (($ni->hasSubmenu) && ($ni->level == 1)) {
-            echo '<a href="' . $ni->url . '" target="' . $ni->target . '" class="' . $ni->classes . '">' . $name . '<i class="icon-chevron-down two-spaces"></i></a>';        
+            echo '<a target="' . $ni->target . '" class="' . $ni->classes . '">' . $name . '<i class="icon-chevron-down two-spaces"></i></a>';
         } else {
-            echo '<a href="' . $ni->url . '" target="' . $ni->target . '" class="' . $ni->classes . '">' . $name . '</a>';      
+            echo '<a href="' . $ni->url . '" target="' . $ni->target . '" class="' . $ni->classes . '">' . $name . '</a>';
         }
         if ($ni->hasSubmenu) {
             echo '<ul class="main-sub-menu">'; //opens a dropdown sub-menu
