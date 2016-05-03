@@ -61,5 +61,6 @@
         <style name="Title Caps" variable="title-caps" type="type" />
         <style name="Home Feature Title" variable="home-feature-title" type="color" />
         <style name="Home Feature Icon" variable="home-feature-icon" type="color" />
+        <style name="Home Learn More Button Color" variable="home-learn-more-button-color" type="color" />
     </set>
 </styles>

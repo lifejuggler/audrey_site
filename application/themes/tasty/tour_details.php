@@ -2,7 +2,7 @@
 defined('C5_EXECUTE') or die("Access Denied.");
 $this->inc('elements/header.php'); ?>
 <main>
-  <div class="container">
+  <div class="container padding-container">
     <?php
     $a = new Area('Title');
     $a->enableGridContainer();

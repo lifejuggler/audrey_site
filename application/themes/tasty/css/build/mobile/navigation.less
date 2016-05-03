@@ -5,7 +5,6 @@
   border-bottom: 5px solid @header-site-title-type-color;
   width: 90%;
   z-index: 99;
-  top: 120px;
   left: 5%;
   -webkit-text-size-adjust: none;
   ul {
@@ -56,12 +55,13 @@
   display: none;
   cursor: pointer;
   margin-top: 10px;
-  margin-left: 5px;
+  margin-left: 16px;
   padding-left: 15px;
+  height: 52px;
   &.responsive-button-close {
     i {
       &:after {
-        padding: 0 18px;
+        padding: 0 15px;
         font-size: 20px;
         color: black;
         content: "\f00d";
@@ -76,7 +76,7 @@
   }
   i {
     &:after {
-      padding: 0 17px;
+      padding: 0 14px;
       border-radius: 4px;
       border: black solid 1px;
       background-color: white;
@@ -112,7 +112,21 @@
 
 
 }
-
+@media (max-width: 440px) {
+  .ccm-responsive-overlay {
+    top: 248px;
+  }
+}
+@media (max-width: 420px) {
+  .ccm-responsive-overlay {
+    top: 244px;
+  }
+}
+@media (max-width: 360px) {
+  .ccm-responsive-overlay {
+    top: 234px;
+  }
+}
 @media all and (min-width: @screen-xs-max) {
   .ccm-responsive-overlay {
     display: none !important;

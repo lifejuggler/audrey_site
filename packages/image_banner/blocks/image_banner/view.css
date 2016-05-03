@@ -34,7 +34,7 @@
   width: 10%;
   padding: 10px 15px;
   border-radius: 5px;
-  background-color: #2ecc71;
+  background-color: @main-learn-more-button-color;
   font-size: 1.5em;
   color: white !important;
   height: 100%;
@@ -64,5 +64,11 @@
   }
   .detail-button-container {
     margin-top: 5px;
+  }
+}
+@media (max-width: 480px) {
+  .caption-box {
+    position: relative;
+    min-height: 370px;
   }
 }

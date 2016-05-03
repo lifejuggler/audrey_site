@@ -39,11 +39,18 @@ html, body {
     margin-left: auto;
     margin-right: auto;
 }
-.book-button {
+.book-now-button {
   padding: 10px;
   font-family: Arial, sans-serif;
   font-size: 1.2em;
   text-transform: uppercase !important;
+  text-align: center;
+  background-color: #000000;
+  border-width:0;
+  color: #FFFFFF;
+  border-radius: 5px;
+  font-weight: bold;
+  vertical-align: middle;
   &:hover {
     background-color: #B4B4B4;
     -webkit-transition: background-color 0.5s ease-out;
@@ -245,7 +252,7 @@ main {
   .info-result {
     font-weight: bold;
   }
-  .book-button {
+  .book-now-button {
     margin-top: 9px;
   }
 }
@@ -269,30 +276,32 @@ main {
     font-size: 2.3em !important;
   }
   .navbar-logo {
-    padding: 20px 0;
+    padding: 20px;
   }
   .book-button-container {
     padding-top: 20px;
     float: right;
-    padding-right: 10%;
+    padding-right: 16%;
   }
   .header-navbar {
     width: 100%;
     height: 50px;
     line-height: 2;
   }
+  .padding-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .ccm-responsive-menu-launch i:after {
     font-size: 1.8em !important;
   }
-  .book-button {
+  .book-now-button {
     vertical-align: middle;
     margin-top: 12px;
     float: right;
     margin-right: 20px;
-    padding: 15px;
-  }
-  .ccm-responsive-overlay {
-    top: 250px !important;
+    padding: 10px 90px 10px 90px;
+    text-align: center;
   }
   .desc-tours .ccm-layout-column {
     width: 100% !important;
@@ -317,11 +326,16 @@ main {
   .tour-info {
     padding: 20px 0 40px 0;
   }
-  .info-group {
+  .info-group, .info-group-first {
     font-size: 1.2em;
   }
   .ccm-block-social-links {
     padding: 20px 0;
     text-align: center !important;
+  }
+}
+@media (max-width: 360px) {
+  .tour-detail-pic {
+    width: 325px;
   }
 }
