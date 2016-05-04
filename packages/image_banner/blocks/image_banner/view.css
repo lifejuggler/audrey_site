@@ -9,6 +9,7 @@
   bottom: 0;
   color: white;
   padding: 10px 25px;
+  overflow: hidden;
 }
 .image-box {
   position: relative;
@@ -46,13 +47,17 @@
     min-height: 185px;
   }
   .detail-button-container {
-    height: 60px;
-    position: relative;
+    top: 55%;
+    position: absolute;
+    right: 0;
   }
   .banner-detail-button {
-    position: absolute;
-    top: 25%;
+    top: 50%;
     height: 50px;
+    display: table-cell;
+  }
+  .caption-content-container {
+    display:table-row;
   }
 }
 @media (max-width: 480px) {
@@ -70,7 +75,7 @@
     font-size: 0.8em;
   }
   .detail-button-container {
-    margin-top: 5px;
+    margin-bottom: 10px;
   }
 }
 // @media (max-width: 480px) {
