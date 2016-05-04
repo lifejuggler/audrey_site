@@ -67,7 +67,7 @@
     border-style: none dashed none none;
   }
   .rslides img {
-    object-fit: contain;
+    object-fit: cover;
     width: 750px;
   }
   .ccm-image-slider {
