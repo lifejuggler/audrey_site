@@ -3,7 +3,7 @@ defined('C5_EXECUTE') or die("Access Denied.");
 $this->inc('elements/header.php'); ?>
 
 <main>
-    <div class="container page-padding">
+    <div class="container padding-container">
         <div class="row">
             <div class="col-md-12 col-content">
                 <?php

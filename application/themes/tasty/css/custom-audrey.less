@@ -60,6 +60,8 @@ html, body {
   vertical-align: middle;
   &:hover {
     background-color: #B4B4B4;
+    text-decoration: none;
+    color: white;
     -webkit-transition: background-color 0.5s ease-out;
     -moz-transition: background-color 0.5s ease-out;
     -ms-transition: background-color 0.5s ease-out;
@@ -262,6 +264,9 @@ main {
   .book-now-button {
     margin-top: 9px;
   }
+  .book-button-container {
+    margin-top: 35px;
+  }
 }
 
 /* Landscape tablets and medium desktops */
@@ -298,6 +303,21 @@ main {
   .padding-container {
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    table {
+      tr {
+        td {
+          display: block;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          float: left;
+          img {
+            display: block;
+          }
+        }
+      }
+    }
   }
   .ccm-responsive-menu-launch i:after {
     font-size: 1.8em !important;
