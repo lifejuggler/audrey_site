@@ -58,7 +58,7 @@
 @media (max-width: 480px) {
   .caption-box {
     position: relative;
-    min-height: 335px;
+    min-height: 240px;
   }
   .img-banner-header {
     font-size: 1.5em;
