@@ -35,10 +35,11 @@ if (is_object($f)) {
     print '<div class="caption-box">
                 <div class="img-banner-header">'. $title .'</div>
                 <hr />
+                <div class="caption-content-container">
                 <div class="col-md-10 col-xs-12">
                     <div class="img-banner-body"><p>' . $caption . '</p></div>
                 </div>
-                <div class="col-md-2 col-xs-12 detail-button-container"><a class="banner-detail-button" href="'. $linkURL .'">Learn More</a></div></div>';
+                <div class="col-md-2 col-xs-12 detail-button-container"><a class="banner-detail-button" href="'. $linkURL .'">Learn More</a></div></div></div>';
 } else if ($c->isEditMode()) { ?>
 
     <div class="ccm-edit-mode-disabled-item"><?php echo t('Empty Image Block.')?></div>

@@ -22,8 +22,9 @@
         if(!($(this).parent('li').hasClass('last-li'))) {
             $(this).parent('li').siblings().children('ul').hide();
             if($(this).parent('li').children('ul').is(':visible')) {
+                $(this).next('ul').slideToggle();
             } else {
-                $(this).next('ul').show();
+                $(this).next('ul').slideToggle();
                 event.preventDefault();
             }
         }
