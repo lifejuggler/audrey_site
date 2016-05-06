@@ -90,7 +90,7 @@
     padding-top: 0;
   }
   .rslides img {
-    object-fit: cover;
+    object-fit: contain;
     height: 200px;
   }
 
