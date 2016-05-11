@@ -277,8 +277,8 @@ main {
   .detail-title {
     padding: 5px 25px;
   }
-  .detail-content {
-
+  .padding-container {
+    padding-bottom: 100px;
   }
 }
 
@@ -288,7 +288,9 @@ main {
 }
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-
+  .padding-container {
+    padding-bottom: 80px;
+  }
 }
 
 /* Portrait phones and smaller */
@@ -318,6 +320,7 @@ main {
     padding-right: 15px;
     margin-left: 15px !important;
     margin-right: 15px !important;
+    margin-bottom: 100px;
     table {
       tr {
         td {
@@ -382,6 +385,17 @@ main {
     height: 250px;
     width: 380px;
   }
+  .padding-container {
+    padding-bottom: 50px;
+  }
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+    .col-sm-12 {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
 }
 @media (max-width: 380px) {
   .tour-detail-pic {
@@ -417,5 +431,8 @@ main {
   }
   .book-button-container {
     padding-top: 15px;
+  }
+  .padding-container {
+    padding-bottom: 50px;
   }
 }
