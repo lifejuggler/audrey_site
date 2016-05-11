@@ -33,7 +33,6 @@ html, body {
   padding: 30px 15px;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: -15px;
 }
 .img-center img {
     margin-left: auto;
@@ -220,11 +219,15 @@ main {
 /* Dimension Specific */
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
-  .page-padding {
-    margin: 0 55px;
+  .general-content {
+    padding-left: 0px !important;
   }
   .row {
-    margin-left: 0px !important;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+  }
+  .page-padding {
+    margin: 0 55px;
   }
   .placard {
     padding: 0px 10px 0px 0px;
@@ -354,9 +357,6 @@ main {
   .col-xs-12 {
     padding-right: 0px !important;
   }
-  .row {
-    margin-left: -13px !important;
-  }
   .tour-info {
     padding: 20px 0 40px 0;
   }
@@ -376,33 +376,44 @@ main {
 @media (max-width: 420px) {
   .tour-detail-pic {
     img {
-      width: 375px;
+      width: 380px;
       height: 250px;
     }
     height: 250px;
-    width: 375px;
+    width: 380px;
   }
 }
 @media (max-width: 380px) {
   .tour-detail-pic {
     img {
-      width: 21.5em;
+      width: 330px;
       height: 250px;
     }
     height: 250px;
-    width: 21.5em;
+    width: 330px;
   }
   .book-button-container {
     padding-top: 20px;
     padding-right: 10%;
   }
+  .col-sm-4 {
+    margin-right: 15px;
+  }
 }
 @media (max-width: 360px) {
   .tour-detail-pic {
     img {
-      width: 21.5em;
+      width: 330px;
     }
-    width: 21.5em;
+    width: 330px;
+  }
+  .row {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .col-sm-12 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
   .book-button-container {
     padding-top: 15px;
