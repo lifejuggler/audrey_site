@@ -118,6 +118,15 @@ $this->inc('elements/header.php'); ?>
         </div>
       </div>
     </div>
+    <script id="eztixKioskLinkId" type="text/javascript">
+        (function(){
+            var ezLoad = document.createElement('script');
+            ezLoad.type = 'text/javascript';
+            ezLoad.src = 'https://kiosk.eztix.co/js/ver' + parseInt(Math.random() * 2147483647) + '/kioskIntegrated/kioskIntegratedExtLoader.js';
+            var s = document.getElementById('eztixKioskLinkId');
+            s.parentNode.insertBefore(ezLoad, s.nextSibling);
+        })();
+    </script>
   </div>
 </main>
 <?php  $this->inc('elements/footer.php'); ?>
