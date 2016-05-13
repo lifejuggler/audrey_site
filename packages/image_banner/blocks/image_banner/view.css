@@ -2,7 +2,6 @@
   width: 100%;
 }
 .caption-box {
-  position: absolute;
   width: 100%;
   background-color:rgba( 0, 0, 0, 0.8);
   font-size: 1.2em;
@@ -44,6 +43,7 @@
 }
 @media (min-width: 1200px) {
   .caption-box {
+    position: absolute;
     min-height: 185px;
   }
   .detail-button-container {
@@ -60,9 +60,21 @@
     display:table-row;
   }
 }
-@media (max-width: 480px) {
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (max-width: 767px) {
   .caption-box {
     position: relative;
+  }
+}
+@media (max-width: 480px) {
+  .caption-box {
     min-height: 240px;
   }
   .img-banner-header {

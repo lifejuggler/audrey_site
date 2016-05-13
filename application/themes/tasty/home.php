@@ -20,6 +20,8 @@ $this->inc('elements/header.php'); ?>
             <section class="odd-row main-section">
                 <?php
                 $a = new Area('Why Tour');
+                $a->enableGridContainer();
+                $a->setAreaGridMaximumColumns(12);
                 $a->display($c);
                 ?>
             </section>
@@ -28,6 +30,8 @@ $this->inc('elements/header.php'); ?>
             <section class="even-row main-section">
                 <?php
                 $a = new Area('Review');
+                $a->enableGridContainer();
+                $a->setAreaGridMaximumColumns(12);
                 $a->display($c);
                 ?>
             </section>
@@ -36,6 +40,8 @@ $this->inc('elements/header.php'); ?>
             <section class="even-row main-section">
                 <?php
                 $a = new Area('Press');
+                $a->enableGridContainer();
+                $a->setAreaGridMaximumColumns(12);
                 $a->display($c);
                 ?>
             </section>
