@@ -8,7 +8,7 @@ return array(
             'server' => 'localhost',
             'database' => 'tastytours',
             'username' => 'root',
-            'password' => '',
+            'password' => 'root',
             'charset' => 'utf8',
         ),
     ),
